@@ -10,7 +10,7 @@ div {
 
 */
 
-/* --------------------------------Exercise 1--------------------------------
+/* --------------------------------Exercise 2--------------------------------
 .odd {
     background-color: rgb(255, 167, 167);
     font-family: Verdana, "DejaVu Sans", sans-serif;
@@ -32,7 +32,7 @@ div {
 }
 */
 
-/* --------------------------------Exercise 1--------------------------------
+/* --------------------------------Exercise 3--------------------------------
 
 .first,
 .second {
@@ -47,5 +47,18 @@ div {
 
 .second {
     background-color: yellow;
+}
+*/
+
+/* --------------------------------Exercise 4--------------------------------
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
 }
 */

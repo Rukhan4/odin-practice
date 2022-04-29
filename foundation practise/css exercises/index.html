@@ -71,7 +71,7 @@ The fourth element: a light green background, a font size of 24px, and bold
 </html>
 -->
 
-<!-- ---------------------EXERCISE 2-------------------------------------------
+<!-- ---------------------EXERCISE 3-------------------------------------------
 
 <!DOCTYPE html>
 <html lang="en">
@@ -87,6 +87,47 @@ The fourth element: a light green background, a font size of 24px, and bold
 <body>
     <button class="first">Click me! </button>
     <button class="second">No, Click me!</button>
+</body>
+
+</html>
+
+-->
+
+<!-- ---------------------EXERCISE 3-------------------------------------------
+
+We have two images for you to style, each with two class names, where one of the class names is shared. The goal here is
+to chain the selectors for both elements, so that each have a unique style applied, despite using a shared class
+selector. For example, you want an element that has both X and Y to have one set of styles, while an element with X and
+Z has a completely different set of styles. We included the original images as well, so that you can see how the styles
+you will be adding look in comparison, so do not add any styles to them.
+
+The properties you need to add to each element are:
+
+Make the element with both the avatar and proportioned classes 300 pixels wide, then give it a height so that it retains
+its original square proportions (don't hardcode in a pixel value for the height!).
+Make the element with both the avatar and distorted classes 200 pixels wide, then make its height twice as big as its
+width (here you should hardcode in a pixel value).
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaining Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <img class="avatar proportioned" src="./pexels-katho-mutodo-8434791.jpg" alt="">
+        <img class="avatar distorted" src="./pexels-andrea-piacquadio-3777931.jpg" alt="">
+    </div>
+    <div>
+        <img class="original proportioned" src="./pexels-katho-mutodo-8434791.jpg" alt="">
+        <img class="original distorted" src="./pexels-andrea-piacquadio-3777931.jpg" alt="">
+    </div>
 </body>
 
 </html>
