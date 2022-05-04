@@ -54,6 +54,7 @@ a {
 
 */
 
+/* EXERCISE 3
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
@@ -102,9 +103,8 @@ button {
 }
 
 a {
-    /* this removes the line under our links */
-    text-decoration: none;
-    color: rebeccapurple;
+text-decoration: none;
+color: rebeccapurple;
 }
 
 ul {
@@ -113,4 +113,46 @@ ul {
     gap: 16px;
     margin: 0;
     padding: 0;
+}
+*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    margin: 52px;
+}
+
+.text {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
 }
