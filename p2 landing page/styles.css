@@ -188,3 +188,10 @@ button {
 }
 
 /* footer */
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px;
+    font-size: 48px;
+}
