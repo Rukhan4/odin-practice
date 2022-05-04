@@ -145,3 +145,46 @@ h2 {
     display: flex;
     align-items: flex-end;
 }
+
+/* updates */
+
+.update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 350px 50px 350px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: none;
+    background-color: #3882f6;
+}
+
+.sign-up {
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* footer */
