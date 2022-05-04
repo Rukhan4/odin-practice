@@ -158,6 +158,7 @@ img {
     background: #eee;
 } */
 
+/* EXERCISE 5
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html,
@@ -243,4 +244,85 @@ button.cancel {
     background: white;
     border: 1px solid #ddd;
     color: royalblue;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 600px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 16px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+ul,
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.left-links {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    gap: 16px;
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.footer {
+    background: #eee;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
 }
