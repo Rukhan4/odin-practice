@@ -89,3 +89,37 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+/* contents */
+
+.fix {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
